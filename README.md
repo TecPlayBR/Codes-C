@@ -21,20 +21,7 @@ Repositório com exercícios, exemplos e estudos práticos em **Linguagem C**, a
 - 🧱 Structs  
 - 📦 Vetores de Structs  
 
----
-
-## 📂 Estrutura do projeto
-
-Codes-C/
-│
-├── Funcoes/
-├── Estruturas/
-├── Loops/
-├── Structs/
-├── Exercicios/
-└── main.c
-
-##💡 Exemplos
+## 💡 Exemplos
 
 🎲 Simulação de dados
 int dado = (rand() % 6) + 1;
@@ -80,6 +67,8 @@ printf("Hello World");
 
 até:
 Structs + Arrays + Entrada de dados + Organização de código
+
+Novos conteúdos serão atualizados sempre que possível :)
 
 ## 👨‍💻 Autor
 Bryan Paim Garcia
