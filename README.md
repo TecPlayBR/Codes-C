@@ -1,83 +1,86 @@
-# Codes-C
+# 💻 Fundamentos em C
 
-Repositório dedicado a estudos, atividades, exercícios e práticas de lógica em **C**.  
-Todo o conteúdo é voltado exclusivamente para aprendizado da linguagem, organizado por tópicos.  
-Não contém projetos completos, apenas códigos de estudo e prática.
+Repositório com exercícios, exemplos e estudos práticos em **Linguagem C**, abordando desde conceitos básicos até estruturas mais avançadas como funções, recursão e structs.
 
----
-
-## 📂 Estrutura de Conteúdos
-
-### Fundamentos
-- `Hello World` → primeiro contato com a linguagem
-- `Instaladores` → lembrete de IDEs e ferramentas utilizadas
-- `Variáveis` → declaração e manipulação de dados
-- `Operadores` → operações aritméticas e lógicas
-
-### Estruturas de Controle
-- `Condição` → exemplos básicos de condições
-- `Condicionais` → if, else, else if
-- `Lógica Condicional` → reforço aplicados
-- `Laços De Repetição` → primeiro contato
-- `Leitura de Valores` → entrada de dados do usuário
-
-### Exercícios e Práticas
-- `Exercicios` → atividades gerais de fixação
-- `Registro` → práticas com estruturas de dados
-- `Main` → códigos centrais e testes
-
-### Projetos de Estudo
-- `Jogo 1` → exercício mais complexo, aplicando lógica e estruturas aprendidas
+> Projeto desenvolvido com foco em aprendizado autodidata e consolidação de lógica de programação.
 
 ---
 
-## 📝 Observações
-- Este repositório é **exclusivo para C**.  
-- Projetos completos ficam em outro espaço, aqui o foco é **aprendizado e prática**.  
-- A ordem dos tópicos segue uma progressão natural: fundamentos → controle de fluxo → exercícios → prática avançada.
+## 📚 Conteúdo abordado
 
-📘 Conceitos Básicos de Programação em C
+- 🧠 Algoritmos e lógica de programação  
+- 🔢 Variáveis e tipos (`int`, `float`, `char`)  
+- 📥 Entrada de dados (`scanf`)  
+- 📤 Saída de dados (`printf`)  
+- ➕ Operações matemáticas  
+- 🔁 Estruturas de repetição (`for`, `while`)  
+- 🔀 Condicionais (`if`, `else`)  
+- 🧩 Funções (com e sem retorno)  
+- 🌍 Escopo de variáveis (local e global)  
+- 🔁 Recursão  
+- 🧱 Structs  
+- 📦 Vetores de Structs  
 
-Este documento apresenta os principais conceitos fundamentais utilizados na programação em C.
+---
 
-🖥️ IDE
+## 📂 Estrutura do projeto
 
-Definição:
-O programa de computador utilizado para escrever códigos.
+Codes-C/
+│
+├── Funcoes/
+├── Estruturas/
+├── Loops/
+├── Structs/
+├── Exercicios/
+└── main.c
 
-📦 Variável
+##💡 Exemplos
 
-Definição:
-Pedaços da memória responsáveis por guardar números, letras e palavras.
+🎲 Simulação de dados
+int dado = (rand() % 6) + 1;
 
-📥 Leitura de Variáveis
+➕ Soma de valores
+int resultado = a + b;
 
-Definição:
-Feita com o comando:
+🧱 Struct (Pessoa)
+struct Pessoa {
+    int idade;
+    float salario;
+    char nome[255];
+};
 
-scanf("%d", &nomeVariavel);
-📤 Escrita de Variáveis
+⚠️ Boas práticas e aprendizados
+Sempre usar & no scanf (exceto strings)
+Cuidado com buffer do teclado
+Strings em C são arrays → usar strcpy
+Evitar variáveis globais quando possível
+Sempre definir condição de parada em recursão
+Usar %d, %f, %c corretamente
+🧠 Conceitos importantes
+Algoritmo → sequência de passos para resolver um problema
+Input / Output → entrada e saída de dados
+Compilador → transforma código em executável
+Variável → espaço na memória para armazenar dados
+Função → bloco reutilizável de código
 
-Definição:
-Feita com o comando:
 
-printf("Valor: %d", nomeVariavel);
-🔀 Condicional
+## ⚙️ Como executar
 
-Definição:
-Análise de uma condição para determinar se linhas específicas de código devem ou não ser executadas.
+Compile com:
+gcc arquivo.c -o programa
 
-🔁 Laço de Repetição
+Execute:
+./programa
 
-Definição:
-Estrutura baseada em uma condição que determina quantas vezes determinadas linhas de código serão executadas.
 
-🧾 Vetores / Strings
+## 📈 Evolução
 
-Definição:
-Funcionam como uma variável, porém podem armazenar mais de um valor, desde que sejam do mesmo tipo, organizados em colunas.
+Este repositório representa a evolução desde:
+printf("Hello World");
 
-🔢 Matrizes
+até:
+Structs + Arrays + Entrada de dados + Organização de código
 
-Definição:
-Funcionam como um vetor com mais dimensões, podendo armazenar múltiplos valores do mesmo tipo, organizados em linhas e colunas.
+## 👨‍💻 Autor
+Bryan Paim Garcia
+🔗 https://github.com/TecPlayBR
